@@ -37,10 +37,26 @@
   width: 400px;
   height: 800px;
   background: white;
+  display: flex;
+  position: relative;
 }
 
 .side-section{
   height: 850px;
   width: 275px;
   background: black;
+}
+
+.shape1{
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.active{
+  background: rgb(255,0,0);
+background: linear-gradient(312deg, rgba(255,0,0,1) 25%, rgba(21,45,84,1) 67%);
+position: absolute;
+left: 200px;
+top: 0px;
 }
