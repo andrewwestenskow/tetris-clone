@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#game-hold{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+#game-area{
+  width: 1100px;
+  background: grey;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-section{
+  height: 850px;
+  min-width: 450px;
+  border: 5px solid white;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+#game-window{
+  width: 400px;
+  height: 800px;
+  background: white;
+}
+
+.side-section{
+  height: 850px;
+  width: 275px;
+  background: black;
+}
